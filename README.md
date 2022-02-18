@@ -14,41 +14,31 @@ For the UI I used **Ant Design**.
 
 ##   👩‍💻 Stack
 [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
 [React](https://es.reactjs.org/)
+
 [CCS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
 [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+
 [npm random-word package](https://www.npmjs.com/package/random-words)
+
 [UUIDv4 ](https://github.com/thenativeweb/uuidv4)
+
 [Unsplash API](https://unsplash.com/documentation)
+
 [AXIOS](https://axios-http.com/)
+
 [MobX](https://mobx.js.org/README.html)
+
 [Ant Design](https://ant.design/)
+
 [React Router](https://reactrouter.com/)
 
 
 ##  🗂️ Folder Structure
--   📁  public
-    -   index.html
--   📁  src
-    -   App.js
-    -   index.js
-    -   Store.js
-    -    styles.css
-    -   📁  components
-	      -   📁  Blog
-		            - Blog.js
-		            - index.js
-				            - 📁  components 
-						            - AddPost.js
-						            - index.js
-						            - Post.js
-			-   📁  Navbar
-						  - Navbar.js
-				           - index.js	
-         	-   📁  Profile
-						  - Profile.js
-				           - index.js	
-		   -  index.js
+![Screenshot 2022-02-18 at 14 09 33](https://user-images.githubusercontent.com/65559206/154688702-1f168f4a-ff6d-4d05-a313-aae7ecfce096.png)
+
 
 ## 🚀 Installation
 To start working with the repository and install all the packages:
