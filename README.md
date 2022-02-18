@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# ✨ Demo
+[estefaniaderosa.github.io/blog](https://estefaniaderosa.github.io/blog)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# :notebook: BLOG APP
+Simple app that simulates a blog where the user can **add , edit  and delete posts**. The posts displayed are random paragraphs and titles generated with [Random Paragraph](https://randomwordgenerator.com/paragraph.php).
+There's also a **Profile** page where the user can **choose a random image for the avatar**.
 
-## Available Scripts
+For this project I used **Mobx** for the first time to manage the global state of the app. If the user adds or deletes a post, there is a posts counter that will display the current amount.
+Everytime the user adds a post an ID is generated using **UUIDv4**.
+To navigate between pages I used **React Router DOM**.
+I used **Axios** to fetch the data from the **Unsplash API** to generate the random image for the avatar. Everytime the user clicks on the 'Generate random avatar' button, a random word is generated using the **random-word npm package**. And that will be the query for the Unsplash search.
+For the UI I used **Ant Design**.
 
-In the project directory, you can run:
 
-### `npm start`
+##   👩‍💻 Stack
+[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[React](https://es.reactjs.org/)
+[CCS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+[npm random-word package](https://www.npmjs.com/package/random-words)
+[UUIDv4 ](https://github.com/thenativeweb/uuidv4)
+[Unsplash API](https://unsplash.com/documentation)
+[AXIOS](https://axios-http.com/)
+[MobX](https://mobx.js.org/README.html)
+[Ant Design](https://ant.design/)
+[React Router](https://reactrouter.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##  🗂️ Folder Structure
+-   📁  public
+    -   index.html
+-   📁  src
+    -   App.js
+    -   index.js
+    -   Store.js
+    -    styles.css
+    -   📁  components
+	      -   📁  Blog
+		            - Blog.js
+		            - index.js
+				            - 📁  components 
+						            - AddPost.js
+						            - index.js
+						            - Post.js
+			-   📁  Navbar
+						  - Navbar.js
+				           - index.js	
+         	-   📁  Profile
+						  - Profile.js
+				           - index.js	
+		   -  index.js
 
-### `npm test`
+## 🚀 Installation
+To start working with the repository and install all the packages:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1.  Clone repo
+> `git clone https://github.com/estefaniaderosa/blog.git`
 
-### `npm run build`
+2. Install
+> `npm i`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3.  Start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> `npm start`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+#### ✅ Codefactor Score
+[![CodeFactor](https://www.codefactor.io/repository/github/estefaniaderosa/blog/badge/master)](https://www.codefactor.io/repository/github/estefaniaderosa/blog/overview/master)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
